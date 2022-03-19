@@ -7,4 +7,8 @@ A great open source c++ profiler
  - Your good to go
 
 # Functions
-## StartEvent(std::string)
+## StartEvent(std::string name)
+Use the StartEvent(std::string name) function to mark the starting point of an event called 'name'.
+
+## EndEvent(std::string name)
+Use the EndEvent(std::string name) function to end the event called 'name' and get the time in seconds since the start of the event.
