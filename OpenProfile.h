@@ -2,7 +2,7 @@
 #include <chrono>
 #include <map>
 
-namespace Profiler{
+namespace OpenProfile{
     std::map<std::string, std::chrono::_V2::system_clock::time_point> events;
 
     void StartEvent(std::string name){
