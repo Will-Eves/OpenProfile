@@ -9,14 +9,14 @@ A great open source c++ profiler
 
 
 # Functions
-## StartEvent(std::string name)
-Use the StartEvent(std::string name) function to mark the starting point of an event called 'name'.
+## OpenProfile::StartEvent(std::string name)
+Use the OpenProfile::StartEvent(std::string name) function to mark the starting point of an event called 'name'.
 
-## EndEvent(std::string name)
-Use the EndEvent(std::string name) function to end the event called 'name' and get the time in seconds since the start of the event.
+## OpenProfile::EndEvent(std::string name)
+Use the OpenProfile::EndEvent(std::string name) function to end the event called 'name' and get the time in seconds since the start of the event.
 
-## StampEvent(std::string name)
-Use the StampEvent(std::string name) function to get the time since the start of the event called 'name' and then reset the event's timer.
+## OpenProfile::StampEvent(std::string name)
+Use the OpenProfile::StampEvent(std::string name) function to get the time since the start of the event called 'name' and then reset the event's timer.
 
-## SnapEvent(std::string name)
-Use the SnapEvent(std::string name) function to get the time since the start of the event called 'name'.
+## OpenProfile::SnapEvent(std::string name)
+Use the OpenProfile::SnapEvent(std::string name) function to get the time since the start of the event called 'name'.
